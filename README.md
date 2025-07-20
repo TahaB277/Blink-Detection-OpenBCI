@@ -9,4 +9,4 @@ It also contains a file that detects blinks from a recording that is done by the
 ## How to run
 1. Hook up your OpenBCI through the serial dongle provided with the kit (and change COM port in main.py)
 2. Hook up the arduino to your pc with a simple LED and change LEDBlink.ino to follow your connections (also change COM port in main.py)
-3. Run main.py and Enjoy!
+3. Run main.py and LEDBlink.ino and Enjoy!
