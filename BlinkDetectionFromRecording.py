@@ -20,8 +20,9 @@ def bandpass(x, fs, low=1, high=50, order=4):
     return filtfilt(b, a, x)
 
 
-# File path
-filename = r'C:\Users\USP\Documents\OpenBCI_GUI\Recordings\OpenBCISession_2025-05-18_19-45-01\OpenBCI-RAW-2025-05-18_19-50-14.txt'
+# Put your file path here, usually stored in Documents\OpenBCI_GUI\Recordings\ 
+# and its called something like OpenBCISession_2025-05-18_19-45-01\OpenBCI-RAW-2025-05-18_19-50-14.txt (Use the txt and not the .csv)
+filename = r''
 
 # Read file, skipping comment lines starting with '%'
 df = pd.read_csv(filename, comment='%', header=0)
